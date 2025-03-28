@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+@font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_ultralight-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_thin-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_light-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_medium-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_semibold-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_bold-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_heavy-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_black-italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SF Pro Text";
+    src: local("☺"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff2") format("woff2"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.woff") format("woff"), url("/wss/fonts/SF-Pro-Text/v3/sf-pro-text_regular.ttf") format("truetype");
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
+}
+html{
+    font-size: 62.5%;
+  
+}
+body{
+  overflow-x: hidden;
+    width: 100vw;
+    height: 65vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+header{
+    position: fixed;
+     width: 100%;
+     padding: 11px;
+     display: flex;
+     top: 0;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: #000000e5;
+     backdrop-filter: blur(10px);
+ }
+ .navbar {
+     display: flex;
+     gap: 37px;
+ }
+ 
+ .navbar a{
+     font-family: "Playwrite HU", sans-serif;
+     font-size: 12px;
+     color: rgba(255, 255, 255, 0.61);
+     font-weight: 500;
+     transition: 0.3 ease;
+     animation: fadeIn 1.5s ease-out;
+     text-align: center;
+     justify-content: center;
+     transition: color 0.5s ease;
+     margin-top: 1px;
+ }
+ .navbar a:hover{
+    color: rgb(214, 214, 214);
+ }
+ .navbar i{
+    font-size: 16px;
+    color: rgb(180, 180, 180);
+    filter: brightness(1);
+    transition: filter 0.2s ease;
+    
+ }
+ .navbar i:hover{
+    filter: brightness(1.1);
+ }
+ .fa-brands{
+    color: rgb(199, 199, 199);
+    font-size: 20px;
+    margin-right: 35px;
+    margin-bottom: 3px;
+    transition: color 0.2s ease;
+ }
+ .fa-brands:hover{
+    color: white;
+ }
+ .navbar-background{
+  background-color: black;
+ }
+ .iPhone16, .AppleWatch{
+    width: 100%;
+    max-width: 3008px;
+    margin: 0 auto;
+    position: relative;
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+    margin-top: 45px;
+    background-color: black;
+}
+.iPhone16blue {
+  width: 100%;
+  max-width: 3008px;
+  margin: 0 auto;
+  position: relative;
+  height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -2;
+  margin-top: 13px;
+}
+
+.iPhone16, .iPhone16blue img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+.AppleWatch, img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.h1-text-16{
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: -.002em;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.hello{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 26.5px;
+  letter-spacing: -.002em;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.learn-more{
+  position: absolute;
+  top: 28%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 12px 21px 12px;
+  border-radius: 20px;
+  letter-spacing: -.002em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 110, 231);
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
