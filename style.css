@@ -152,20 +152,20 @@ header{
  .navbar i:hover{
     filter: brightness(1.1);
  }
- .fa-brands{
+ .nav-apple{
     color: rgb(199, 199, 199);
     font-size: 20px;
     margin-right: 35px;
     margin-bottom: 3px;
     transition: color 0.2s ease;
  }
- .fa-brands:hover{
+ .nav-apple:hover{
     color: white;
  }
  .navbar-background{
   background-color: black;
  }
- .iPhone16, .AppleWatch{
+ .iPhone16{
     width: 100%;
     max-width: 3008px;
     margin: 0 auto;
@@ -178,12 +178,26 @@ header{
     margin-top: 45px;
     background-color: black;
 }
-.iPhone16blue {
+.AppleWatch{
   width: 100%;
   max-width: 3008px;
   margin: 0 auto;
   position: relative;
   height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -2;
+  margin-top: 15px;
+  background-color: black;
+
+}
+.iPhone16blue {
+  width: 100%;
+  max-width: 3008px;
+  margin: 0 auto;
+  position: relative;
+  height: calc(80vh - 200px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,6 +254,7 @@ header{
   z-index: 2;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   text-align: center;
   font-size: 17px;
   padding: 12px 21px 12px;
@@ -248,5 +263,155 @@ header{
   color: rgb(255, 255, 255);
   background-color: rgb(29, 110, 231);
   font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.learn-more:hover{
+  color: rgb(88, 155, 255);
+}
+.buy-now{
+  background: transparent;
+  position: absolute;
+  top: 28%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 11px 21px 11px;
+  border-radius: 20px;
+  color:  rgb(29, 140, 231);
+  letter-spacing: -.002em;
+  font-weight: 400;
+  border: 1px solid rgb(29, 140, 231);
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.learn-more-1{
+  position: absolute;
+  top: 28%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  padding: 12px 21px 12px;
+  border-radius: 20px;
+  letter-spacing: -.002em;
+  color: black;
+  background-color: white;
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.learn-more:hover{
+  color: rgb(88, 155, 255);
+}
+.buy-now-1{
+  background: transparent;
+  position: absolute;
+  top: 28%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 11px 21px 11px;
+  border-radius: 20px;
+  color: white;
+  letter-spacing: -.002em;
+  font-weight: 400;
+  border: 1px solid white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.AppleWatch .h1-text-16{
+  font-size: 50px;
+}
+.watch-apple-logo{
+  position: absolute;
+    top: 12%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -.002em;
+    color: rgb(255, 255, 255);
+}
+.h2-text{
+  position: absolute;
+    top: 20%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -.002em;
+    color: #f56900;
+    font-weight: 600;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.watch-text{
+  position: absolute;
+  top: 24.5%;
+  left: 49.2%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 26.5px;
+  letter-spacing: -.002em;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.learn-more-watch{
+  position: absolute;
+  top: 32%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  padding: 12px 21px 12px;
+  border-radius: 20px;
+  letter-spacing: -.002em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 110, 231);
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.learn-more-watch:hover{
+  color: rgb(88, 155, 255);
+}
+.buy-now-watch{
+  background: transparent;
+  position: absolute;
+  top: 32%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  padding: 11px 21px 11px;
+  border-radius: 20px;
+  color:  rgb(29, 140, 231);
+  letter-spacing: -.002em;
+  font-weight: 400;
+  border: 1px solid rgb(29, 140, 231);
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
